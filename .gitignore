@@ -1,0 +1,25 @@
+# ===== PYTHON SYSTEM FILES =====
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.log
+
+# ===== VIRTUAL ENVIRONMENTS =====
+.venv/
+venv/
+env/
+
+# ===== SECRETS / TOKENS =====
+*.env
+token.txt
+
+# ===== OS-SPECIFIC =====
+.DS_Store
+Thumbs.db
+
+# ===== CSV EXPORTS =====
+*.csv
+*.xlsx
+*.zip
