@@ -1,3 +1,9 @@
+import os, sys
+
+TOKEN = os.environ.get("BOT_TOKEN")
+if not TOKEN:
+    print("ERROR: BOT_TOKEN env var is missing.", file=sys.stderr)
+    sys.exit(1)
 # I_suck_at_golf — Telegram bot
 # python-telegram-bot==21.3
 
